@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+AB0000000000000000000000 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalModels.swift; sourceTree = "<group>"; };
+AC0000000000000000000000 = {isa = PBXBuildFile; fileRef = AB0000000000000000000000; };
+AB0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalImport.swift; sourceTree = "<group>"; };
+AC0000000000000000000001 = {isa = PBXBuildFile; fileRef = AB0000000000000000000001; };
+AB0000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalViews.swift; sourceTree = "<group>"; };
+AC0000000000000000000002 = {isa = PBXBuildFile; fileRef = AB0000000000000000000002; };
+
+
+EE0000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishPracticeUITests.swift; sourceTree = "<group>"; };
+EE0000000000000000000002 = {isa = PBXBuildFile; fileRef = EE0000000000000000000001; };
+EE0000000000000000000003 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = EnglishPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+EE0000000000000000000004 = {isa = PBXGroup; children = (EE0000000000000000000001,); path = Tests/UI; sourceTree = "<group>"; };
+EE0000000000000000000005 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (EE0000000000000000000002,); runOnlyForDeploymentPostprocessing = 0; };
+EE0000000000000000000006 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+EE0000000000000000000009 = {isa = XCConfigurationList; buildConfigurations = (EE0000000000000000000007,EE0000000000000000000008,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+EE0000000000000000000010 = {isa = PBXNativeTarget; buildConfigurationList = EE0000000000000000000009; buildPhases = (EE0000000000000000000005,EE0000000000000000000006,); buildRules = (); dependencies = (EE0000000000000000000012,); name = EnglishPracticeUITests; productName = EnglishPracticeUITests; productReference = EE0000000000000000000003; productType = "com.apple.product-type.bundle.ui-testing"; };
+EE0000000000000000000011 = {isa = PBXContainerItemProxy; containerPortal = 98F54143AB4E86B28C3AFEE0; proxyType = 1; remoteGlobalIDString = 0E8A3AD980EC179856012B7E; remoteInfo = EnglishPractice; };
+EE0000000000000000000012 = {isa = PBXTargetDependency; target = 0E8A3AD980EC179856012B7E; targetProxy = EE0000000000000000000011; };
+EE0000000000000000000007 = {isa = XCBuildConfiguration; name = Debug; buildSettings = { GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = org.example.englishpractice.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = EnglishPractice; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; }; };
+EE0000000000000000000008 = {isa = XCBuildConfiguration; name = Release; buildSettings = { GENERATE_INFOPLIST_FILE = YES; PRODUCT_BUNDLE_IDENTIFIER = org.example.englishpractice.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = EnglishPractice; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; }; };
+
+AA1111111111111111111111 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>";};
+AA2222222222222222222222 = {isa = PBXBuildFile; fileRef = AA1111111111111111111111;};
+D21330103321EBCF263FE05C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordImport.swift; sourceTree = "<group>";};
+5FBF87967627ABDBFD31394F = {isa = PBXBuildFile; fileRef = D21330103321EBCF263FE05C;};
+
+/* Begin PBXBuildFile section */
+		487C502A5481E87001E8CC43 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BFBC84FD9B2B92C10227AA /* Models.swift */; };
+		4AD7FF85391E41D66FBD067C /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E5643E8D228496FA8921D /* Audio.swift */; };
+		4D60F98B4DD72404F1695975 /* lesson.json in Resources */ = {isa = PBXBuildFile; fileRef = 024727F8522E94CDC2EC415A /* lesson.json */; };
+		614B4B7697321E24EDE03C80 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D1EABD8211EBDFB4F8CBEC /* Store.swift */; };
+		FB8FF00A52F57BE2DCC18B74 /* EnglishPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56569766DC1C78C99D1AF602 /* EnglishPracticeApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		024727F8522E94CDC2EC415A /* lesson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = lesson.json; sourceTree = "<group>"; };
+		19BFBC84FD9B2B92C10227AA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		38A007151ABE87CC01A5B6E9 /* EnglishPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = EnglishPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56569766DC1C78C99D1AF602 /* EnglishPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishPracticeApp.swift; sourceTree = "<group>"; };
+		7B3E5643E8D228496FA8921D /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		A6D1EABD8211EBDFB4F8CBEC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482182478A3ECD4745BEA917 /* EnglishPractice */ = {
+			isa = PBXGroup;
+			children = (
+				AA1111111111111111111111 /* Assets.xcassets */,
+AB0000000000000000000002,
+AB0000000000000000000001,
+AB0000000000000000000000,
+                D21330103321EBCF263FE05C /* WordImport.swift */,
+				19BFBC84FD9B2B92C10227AA /* Models.swift */,
+				A6D1EABD8211EBDFB4F8CBEC /* Store.swift */,
+				7B3E5643E8D228496FA8921D /* Audio.swift */,
+				56569766DC1C78C99D1AF602 /* EnglishPracticeApp.swift */,
+				024727F8522E94CDC2EC415A /* lesson.json */,
+			);
+			path = EnglishPractice;
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+EE0000000000000000000004,
+				482182478A3ECD4745BEA917 /* EnglishPractice */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* EnglishPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8A3AD980EC179856012B7E /* EnglishPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "EnglishPractice" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnglishPractice;
+			productName = EnglishPractice;
+			productReference = 38A007151ABE87CC01A5B6E9 /* EnglishPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "EnglishPractice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+EE0000000000000000000010,
+				0E8A3AD980EC179856012B7E /* EnglishPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2222222222222222222222 /* Assets.xcassets in Resources */,
+                4D60F98B4DD72404F1695975 /* lesson.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBF87967627ABDBFD31394F /* WordImport.swift in Sources */,
+				487C502A5481E87001E8CC43 /* Models.swift in Sources */,
+AC0000000000000000000002,
+AC0000000000000000000001,
+AC0000000000000000000000,
+				614B4B7697321E24EDE03C80 /* Store.swift in Sources */,
+				4AD7FF85391E41D66FBD067C /* Audio.swift in Sources */,
+				FB8FF00A52F57BE2DCC18B74 /* EnglishPracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "英语随身练";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+                INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于录制英语练习并在本机保存和回听。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 0.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.englishpractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 11;
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "英语随身练";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+                INFOPLIST_KEY_NSMicrophoneUsageDescription = "用于录制英语练习并在本机保存和回听。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIFileSharingEnabled = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				MARKETING_VERSION = 0.6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.example.englishpractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "EnglishPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "EnglishPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

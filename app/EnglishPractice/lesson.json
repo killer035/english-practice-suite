@@ -1,0 +1,68 @@
+{
+  "id": "daily-english-demo",
+  "title": "每日英语练习",
+  "subtitle": "原创入门示例 · 先试着开口",
+  "source": "本项目原创示例；未附视频原声，可练习阅读、录音和整句抽题。",
+  "segments": [
+    {
+      "id": "demo-1",
+      "title": "每天积累一句",
+      "en": "I learn one useful phrase every day.",
+      "zh": "我每天学习一个有用的词组。",
+      "original": "I learn one useful phrase every day.",
+      "prompt": "What would you like to learn today?",
+      "promptZh": "今天你想学习什么？",
+      "sample": "I would like to learn one useful phrase."
+    },
+    {
+      "id": "demo-2",
+      "title": "整句朗读练习",
+      "en": "When I practice, I read the whole sentence aloud.",
+      "zh": "练习时，我会把整个句子朗读出来。",
+      "original": "When I practice, I read the whole sentence aloud.",
+      "prompt": "How do you practice English?",
+      "promptZh": "你怎样练习英语？",
+      "sample": "I read a sentence aloud and record my voice."
+    }
+  ],
+  "phrases": [],
+  "learningPoints": [
+    {
+      "id": "W01",
+      "category": "核心单词",
+      "term": "useful",
+      "meaning": "有用的",
+      "sentenceEn": "I learn one useful phrase every day.",
+      "sentenceZh": "我每天学习一个有用的词组。",
+      "note": "/ˈjuːsfəl/ adj."
+    },
+    {
+      "id": "F01",
+      "category": "核心词组",
+      "term": "read aloud",
+      "meaning": "朗读",
+      "sentenceEn": "When I practice, I read the whole sentence aloud.",
+      "sentenceZh": "练习时，我会把整个句子朗读出来。",
+      "note": ""
+    },
+    {
+      "id": "T01",
+      "category": "核心句式",
+      "term": "When I ..., I ...",
+      "meaning": "当我……时，我……",
+      "sentenceEn": "When I practice, I read the whole sentence aloud.",
+      "sentenceZh": "练习时，我会把整个句子朗读出来。",
+      "note": ""
+    }
+  ],
+  "sentenceBank": [
+    {
+      "en": "I learn one useful phrase every day.",
+      "zh": "我每天学习一个有用的词组。"
+    },
+    {
+      "en": "When I practice, I read the whole sentence aloud.",
+      "zh": "练习时，我会把整个句子朗读出来。"
+    }
+  ]
+}

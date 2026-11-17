@@ -1,0 +1,85 @@
+{
+  "title": "每日英语练习（原创结构示例）",
+  "sourceVideo": "demo.mp4",
+  "videoSHA256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "videoDuration": 8.0,
+  "alignmentMethod": "虚构演示时间，仅用于格式测试，不对应真实视频",
+  "timingStatus": "synthetic-demo",
+  "sentences": [
+    {
+      "id": "S001",
+      "paragraph": "P01",
+      "en": "I learn one useful phrase every day.",
+      "zh": "我每天学习一个有用的词组。",
+      "start": 0.0,
+      "end": 3.0
+    },
+    {
+      "id": "S002",
+      "paragraph": "P01",
+      "en": "When I practice, I read the whole sentence aloud.",
+      "zh": "练习时，我会把整个句子朗读出来。",
+      "start": 3.5,
+      "end": 7.0
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "P01",
+      "title": "每日练习",
+      "sentenceIDs": [
+        "S001",
+        "S002"
+      ],
+      "en": "I learn one useful phrase every day. When I practice, I read the whole sentence aloud.",
+      "zh": "我每天学习一个有用的词组。练习时，我会把整个句子朗读出来。",
+      "start": 0.0,
+      "end": 7.0
+    }
+  ],
+  "learningPoints": [
+    {
+      "id": "W01",
+      "category": "核心单词",
+      "number": 1,
+      "term": "useful",
+      "ipa": "/ˈjuːsfəl/",
+      "pos": "adj.",
+      "meaning": "有用的",
+      "sentenceID": "S001",
+      "sentenceEn": "I learn one useful phrase every day.",
+      "sentenceZh": "我每天学习一个有用的词组。",
+      "start": 0.0,
+      "end": 3.0
+    },
+    {
+      "id": "F01",
+      "category": "核心词组",
+      "number": 1,
+      "term": "read aloud",
+      "ipa": "",
+      "pos": "",
+      "meaning": "朗读",
+      "sentenceID": "S002",
+      "sentenceEn": "When I practice, I read the whole sentence aloud.",
+      "sentenceZh": "练习时，我会把整个句子朗读出来。",
+      "start": 3.5,
+      "end": 7.0
+    },
+    {
+      "id": "T01",
+      "category": "核心句式",
+      "number": 1,
+      "term": "When I ..., I ...",
+      "ipa": "",
+      "pos": "",
+      "meaning": "当我……时，我……",
+      "sentenceID": "S002",
+      "sentenceEn": "When I practice, I read the whole sentence aloud.",
+      "sentenceZh": "练习时，我会把整个句子朗读出来。",
+      "start": 3.5,
+      "end": 7.0
+    }
+  ],
+  "languageNotes": []
+}
